@@ -1,8 +1,8 @@
 body {
     background-color: #1A1A1D;
     font-family: 'Odibee Sans', cursive;
-    height: 100%;
-    margin: auto 35%;
+    text-align: center;
+    margin: 0 35%;
 }
 
 h1 {
@@ -18,6 +18,8 @@ h2 {
 @media only screen and (max-width: 600px) {
     body {
         margin: 0 10%;
+        display: grid;
+        height: 100vh;
     }
 
     h1 {
@@ -41,11 +43,6 @@ h2 {
     h2 {
         font-size: 3vw;
     }
-}
-
-
-.center {
-    text-align: center;
 }
 
 
